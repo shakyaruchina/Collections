@@ -6,7 +6,7 @@ import java.io.FilenameFilter;
 public class ReadingAndQueueJpegImage {
 
 	public static void main(String[] args) {
-		File file = new File("/Users/ruchina/Desktop/Form/");
+		File file = new File("File Path");
 		File[] files = file.listFiles(new FilenameFilter() {
 			
 			@Override

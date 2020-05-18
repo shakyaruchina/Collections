@@ -8,7 +8,7 @@ public class CountingFiles {
 
 	public static void main(String[] args) {
 		
-		File file = new File("/Users/ruchina/Desktop/Form");
+		File file = new File("FilePath");
 		int Count = file.list().length;
 		System.out.println("No. of files present: " + Count);
 		
